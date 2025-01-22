@@ -31,10 +31,10 @@ To build slstatus, you need the Xlib header files.
 
 ## Installation
 1. Edit `config.mk` to match your local setup (slstatus is installed into the `/usr/local` namespace by default).
-2. Run the following command to build and install slstatus (if necessary, as root): make clean install
+2. Run the following command to build and install slstatus (if necessary, as root): **make clean install**
 
 3. ## Running slstatus
-See the man page for details.
+See the main page for details.
 
 ## Configuration
 slstatus can be customized by creating a custom `config.h` and (re)compiling the source code. This keeps it fast, secure, and simple.
